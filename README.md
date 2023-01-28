@@ -6,13 +6,13 @@
 **Description:**
 Test if OCR can read any text in compressed image
 
-##How to use:
+## How to use:
 - Clone this repo
 - `make setup` (installs poetry + brew packages + pip packages in a python venv)
 - `make run` (runs 1 fail + 1 success test case)
 
 
-##Test Result:
+## Test Result:
 ```
 ################################################################################################
 [TEST 1 - START] 2023-01-28 01:17:23.061945
