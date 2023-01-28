@@ -14,14 +14,14 @@ PIP = pip3 # pip for Windows
 
 ###################################################################################################################
 
-setup: install-poetry install
-
-install: 
-	poetry update
+setup: install-poetry install install-brew-packages
 
 install-poetry:
 	curl -sSL https://install.python-poetry.org | python3 -
 	# if fail go here to debug https://python-poetry.org/docs/
+
+install: 
+	poetry update
 
 install-brew-packages:
 	brew install tesseract
