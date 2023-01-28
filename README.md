@@ -10,3 +10,4 @@ Test if OCR can read any text in compressed image
 - Clone this repo
 - `make setup` (installs poetry + brew packages + pip packages in a python venv)
 - `make run` (runs 1 fail + 1 success test case)
+- **Test Result:** `README_test_results.txt`
